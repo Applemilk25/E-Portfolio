@@ -11,7 +11,7 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Education\n\nList your education here.\n\n\n\nPublications\nPeer-reviewed publications:\n\nList any peer-reviewed publications here.\n\nReports:\nFCOR 599 Research Project\n\nList any non-peer reviewed materials you’d like to share here.\n\n\n\nConferences & Talks\nInvited Talks\n\nIf you’ve been invited to speak in a professional setting, list that here.\n\nConference Presentations\n\nIf the presentation was at a conference, list them here.\n\n\n\nAwards & Honors\n\nList any scholarships, bursaries, etc.\n\n\n\nTeaching Assistantships\n\nList any TA positions you may have held.\n\n\n\nInstitutional Service\n\nVolunteering etc."
+    "text": "UBC Forestry - Natural Resources Conservation\nDeveloping expertise in Geographic Information Systems software such as QGIS, ENVI and ArcGIS Pro, with applications to forest management, natural resource conservation and urban development. In addition to a strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.\n\nCreated maps to visualize animal habitat and its relations to urban develops, then building suitability models with ArcPy in ArcGIS Pro to simulate and project difference scenarios.\n\n\n\n\nUBC Forestry - Natural Resources Conservation"
   },
   {
     "objectID": "publications.html",
@@ -54,5 +54,19 @@
     "title": "Content & Deliverables",
     "section": "",
     "text": "You can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
+  },
+  {
+    "objectID": "resume.html#geospatial-mapping-remote-sensing",
+    "href": "resume.html#geospatial-mapping-remote-sensing",
+    "title": "Resume",
+    "section": "",
+    "text": "UBC Forestry - Natural Resources Conservation\nDeveloping expertise in Geographic Information Systems software such as QGIS, ENVI and ArcGIS Pro, with applications to forest management, natural resource conservation and urban development. In addition to a strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.\n\nCreated maps to visualize animal habitat and its relations to urban develops, then building suitability models with ArcPy in ArcGIS Pro to simulate and project difference scenarios."
+  },
+  {
+    "objectID": "resume.html#land-use-mathematical-modelling",
+    "href": "resume.html#land-use-mathematical-modelling",
+    "title": "Resume",
+    "section": "",
+    "text": "UBC Forestry - Natural Resources Conservation"
   }
 ]
