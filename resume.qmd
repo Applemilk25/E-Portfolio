@@ -8,19 +8,13 @@ title: "Resume"
 
 *`UBC Forestry - Natural Resources Conservation`*
 
-Developing expertise in Geographic Information Systems software such as QGIS, ENVI
-and ArcGIS Pro, with applications to forest management, natural resource
-conservation and urban development. In addition to a strong conceptual
-understanding of projection mapping, Relational Database Management Systems,
-rasterization, and image processing.
+Developing expertise in Geographic Information Systems software such as QGIS, ENVI and ArcGIS Pro, with applications to forest management, natural resource conservation and urban development. In addition to a strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.
 
--   Created maps to visualize animal habitat and its relations to urban develops,
-    then building suitability models with ArcPy in ArcGIS Pro to simulate and
-    project difference scenarios.
+-   Created maps to visualize animal habitat and its relations to urban develops, then building suitability models with ArcPy in ArcGIS Pro to simulate and project difference scenarios.
 
 ## Land use & Mathematical Modelling
 
-*`UBC Forestry - Natural Resources Conservation`*
+*UBC Forestry - Natural Resources Conservation*
 
 # Publications
 
