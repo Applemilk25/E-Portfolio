@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Si Ming’s E-Portfolio",
-    "section": "",
-    "text": "Hey there,\nWelcome to Si Ming’s E-Portfolio landing page. This portfolio will detail Si Ming’s professional projects and accomplishments."
-  },
-  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
@@ -14,18 +7,25 @@
     "text": "UBC Forestry - Natural Resources Conservation\nDeveloping expertise in Geographic Information Systems software such as QGIS, ENVI and ArcGIS Pro, with applications to forest management, natural resource conservation and urban development. In addition to a strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.\n\nCreated maps to visualize animal habitat and its relations to urban develops, then building suitability models with ArcPy in ArcGIS Pro to simulate and project difference scenarios.\n\n\n\n\nUBC Forestry - Natural Resources Conservation"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "resume.html#geospatial-mapping-remote-sensing",
+    "href": "resume.html#geospatial-mapping-remote-sensing",
+    "title": "Resume",
     "section": "",
-    "text": "Peer-reviewed publications:\nDespite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to ‘most recent’ publications, or categorize things by project/topic."
+    "text": "UBC Forestry - Natural Resources Conservation\nDeveloping expertise in Geographic Information Systems software such as QGIS, ENVI and ArcGIS Pro, with applications to forest management, natural resource conservation and urban development. In addition to a strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.\n\nCreated maps to visualize animal habitat and its relations to urban develops, then building suitability models with ArcPy in ArcGIS Pro to simulate and project difference scenarios."
   },
   {
-    "objectID": "content_development.html",
-    "href": "content_development.html",
-    "title": "Content & Deliverables",
+    "objectID": "resume.html#land-use-mathematical-modelling",
+    "href": "resume.html#land-use-mathematical-modelling",
+    "title": "Resume",
     "section": "",
-    "text": "Project Deliverable 1\nThis is a sample page where you can archive project deliverables."
+    "text": "UBC Forestry - Natural Resources Conservation"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Si Ming’s E-Portfolio",
+    "section": "",
+    "text": "Hey there,\nWelcome to Si Ming’s E-Portfolio landing page. This portfolio will detail Si Ming’s professional projects and accomplishments."
   },
   {
     "objectID": "content.html",
@@ -56,17 +56,10 @@
     "text": "You can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
   },
   {
-    "objectID": "resume.html#geospatial-mapping-remote-sensing",
-    "href": "resume.html#geospatial-mapping-remote-sensing",
-    "title": "Resume",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "UBC Forestry - Natural Resources Conservation\nDeveloping expertise in Geographic Information Systems software such as QGIS, ENVI and ArcGIS Pro, with applications to forest management, natural resource conservation and urban development. In addition to a strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.\n\nCreated maps to visualize animal habitat and its relations to urban develops, then building suitability models with ArcPy in ArcGIS Pro to simulate and project difference scenarios."
-  },
-  {
-    "objectID": "resume.html#land-use-mathematical-modelling",
-    "href": "resume.html#land-use-mathematical-modelling",
-    "title": "Resume",
-    "section": "",
-    "text": "UBC Forestry - Natural Resources Conservation"
+    "text": "Peer-reviewed publications:\nDespite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to ‘most recent’ publications, or categorize things by project/topic."
   }
 ]
