@@ -16,6 +16,81 @@ about:
       href: mailto:siming01@student.ubc.ca
 ---
 
-Hey there,
+Welcome,
 
 Welcome to Si Ming's E-Portfolio landing page. This portfolio will detail Si Ming's professional projects and accomplishments.
+
+```{=html}
+::: {#carouselResearch class="carousel slide" data-bs-ride="carousel"}
+<div class="carousel-inner">
+  
+  <div class="carousel-item active">
+    <img src="images/MGEM_20240901_X1007133-RAF.jpg" class="d-block w-100" alt="Fieldwork in Action">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Fieldwork in Action</h5>
+      <p>Collecting environmental data in remote locations.</p>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <img src="images/XH2S2101.MOV_1.19.1.jpg" class="d-block w-100" alt="LiDAR Data Processing">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>LiDAR Data Processing</h5>
+      <p>Analyzing forest canopy structures using airborne LiDAR.</p>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <img src="images/XH2S2057.MOV_1.5.1.jpg" class="d-block w-100" alt="GIS Mapping">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>GIS Mapping</h5>
+      <p>Using GIS to model ecological landscapes and conservation zones.</p>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <img src="images/MGEM_20240901_X1007176-RAF.jpg" class="d-block w-100" alt="Lab Analysis">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Lab Analysis</h5>
+      <p>Conducting environmental sample analysis in the lab.</p>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <img src="images/MGEM_20240901_X1007131-RAF.jpg" class="d-block w-100" alt="Lab Analysis">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Lab Analysis</h5>
+      <p>Conducting environmental sample analysis in the lab.</p>
+    </div>
+  </div>
+
+  <div class="carousel-item">
+    <img src="images/XH2S2057.MOV_1.5.1.jpg" class="d-block w-100" alt="Lab Analysis">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Lab Analysis</h5>
+      <p>Conducting environmental sample analysis in the lab.</p>
+    </div>
+  </div>
+  
+  <div class="carousel-item">
+    <img src="images/XH2S2054.MOV_1.1.1.jpg" class="d-block w-100" alt="Lab Analysis">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Lab Analysis</h5>
+      <p>Conducting environmental sample analysis in the lab.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Carousel Controls -->
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselResearch" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselResearch" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+:::
+```

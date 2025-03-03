@@ -3,7 +3,7 @@ project:
   output-dir: C:\Users\Si Ming\Documents\GitHub\E-Portfolio
 
 website:
-  title: "Your E-Portfolio"
+  title: "Si Ming's E-Portfolio"
   navbar:
     left:
       - href: index.qmd
@@ -20,6 +20,9 @@ format:
     theme: flatly
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 editor: visual
 
