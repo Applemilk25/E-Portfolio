@@ -10,10 +10,10 @@ website:
         text: Home
       - href: resume.qmd
         text: Resume
-#      - href: publications.qmd
-#        text: Publications
-      - href: content.qmd
-        text: Content & Deliverables
+      - href: Conservation.qmd
+        text: Conservation
+      - href: Wildfire_management.qmd
+        text: Wildfire management
 
 format:
   html:

@@ -10,7 +10,7 @@ title: "Resume"
 
 Developing expertise in Geographic Information Systems software such as QGIS, ENVI, and ArcGIS Pro, with applications to forest management, natural resource conservation, and urban development. Strong conceptual understanding of projection mapping, Relational Database Management Systems, rasterization, and image processing.
 
-- Created maps to visualize animal habitat and its relations to urban development, then built suitability models with ArcPy in ArcGIS Pro to simulate and project different scenarios.
+-   Created maps to visualize animal habitat and its relations to urban development, then built suitability models with ArcPy in ArcGIS Pro to simulate and project different scenarios.
 
 ## Land Use & Mathematical Modelling
 
@@ -38,9 +38,9 @@ Strong understanding of Indigenous self-determination, knowledge systems, princi
 
 # Institutional Service
 
-- Free Geek Electronics Refurbish & Recycling (March – May 2018)
-- Studied the processing of electronic waste management and its environmental impacts.
-- Led volunteers in repairing and assembling computers from refurbished parts to reduce e-waste.
+-   Free Geek Electronics Refurbish & Recycling (March – May 2018)
+-   Studied the processing of electronic waste management and its environmental impacts.
+-   Led volunteers in repairing and assembling computers from refurbished parts to reduce e-waste.
 
 # Work Experience
 
@@ -48,54 +48,52 @@ Strong understanding of Indigenous self-determination, knowledge systems, princi
 
 *`UBC Brand and Marketing` (September 2023 – Present)*
 
-- Capturing student life and research at UBC alongside university photographer Paul Joseph.
+-   Capturing student life and research at UBC alongside university photographer Paul Joseph.
 
 ## Communications Specialist
 
-*`UBC Faculty of Arts Bachelor of Media Studies` (May 2022 – May 2023)*
-*`UBC Faculty of Graduate and Postdoctoral Studies` (April 2021 – May 2022)*
-*`UBC Science Po Dual Degree Program` (April 2021 – May 2022)*
+*`UBC Faculty of Arts Bachelor of Media Studies` (May 2022 – May 2023)* *`UBC Faculty of Graduate and Postdoctoral Studies` (April 2021 – May 2022)* *`UBC Science Po Dual Degree Program` (April 2021 – May 2022)*
 
-- Managed social media platforms, designed infographics, and digital signage advertisements, increasing engagement and event turnout.
+-   Managed social media platforms, designed infographics, and digital signage advertisements, increasing engagement and event turnout.
 
 ## Filmmaker & Project Manager
 
 *`Vancouver Arts Colloquium Society` (June 2023 – August 2023)*
 
-- Co-produced documentaries "Weaving our Way" and "Hidden Flowers," showcased at UBC Gallery in Fall 2023.
-- Photography & Video Production – Camera operation, color & sound design.
-- Media Catalogue & File Organization.
+-   Co-produced documentaries "Weaving our Way" and "Hidden Flowers," showcased at UBC Gallery in Fall 2023.
+-   Photography & Video Production – Camera operation, color & sound design.
+-   Media Catalogue & File Organization.
 
 ## Freelance Photographer & Design Artist
 
 *Portfolio: [simingzheng808.wixsite.com/website](https://simingzheng808.wixsite.com/website)*
 
-- Event Photographer – UBC Bachelor of International Economics (May 2023)
-- Event Videographer – SFU Science Undergraduate Society (September 2022)
-- Corporate Marketing – Baylink Networks (August 2022)
-- Commercial Video – DensGlass Drywall & Construction (August 2023)
-- Corporate Marketing – The Public Health Association of BC (November 2023)
+-   Event Photographer – UBC Bachelor of International Economics (May 2023)
+-   Event Videographer – SFU Science Undergraduate Society (September 2022)
+-   Corporate Marketing – Baylink Networks (August 2022)
+-   Commercial Video – DensGlass Drywall & Construction (August 2023)
+-   Corporate Marketing – The Public Health Association of BC (November 2023)
 
 # Technical Skills
 
 ## Analytics & Software
 
-- **ENVI** – Image processing & analysis (Lidar, satellite imagery, sonar).
-- **QGIS & ArcGIS Pro (ArcPy)** – Map creation, spatial data visualization, model building.
-- **Spatial Planning Systems (Beanshell)** – Landscape planning, future scenario projections.
-- **R Studio (R Script)** – Statistical analysis, dataset management, and visualization.
-- **Microsoft Azure (Python)** – Experience in Python for cloud computing and NLP projects.
+-   **ENVI** – Image processing & analysis (Lidar, satellite imagery, sonar).
+-   **QGIS & ArcGIS Pro (ArcPy)** – Map creation, spatial data visualization, model building.
+-   **Spatial Planning Systems (Beanshell)** – Landscape planning, future scenario projections.
+-   **R Studio (R Script)** – Statistical analysis, dataset management, and visualization.
+-   **Microsoft Azure (Python)** – Experience in Python for cloud computing and NLP projects.
 
 ## Media & Design Software
 
-- **Adobe Creative Cloud Suite** – Photoshop, Premiere Pro, Lightroom, Illustrator.
-- **Blender & Maya 3D** – 3D design and animation.
-- **Davinci Resolve & Fusion** – Advanced video editing and color grading.
-- **FL Studio** – Audio mastering and sound synthesis.
+-   **Adobe Creative Cloud Suite** – Photoshop, Premiere Pro, Lightroom, Illustrator.
+-   **Blender & Maya 3D** – 3D design and animation.
+-   **Davinci Resolve & Fusion** – Advanced video editing and color grading.
+-   **FL Studio** – Audio mastering and sound synthesis.
 
 # Interpersonal & IT Skills
 
-- Strong collaboration and team management abilities from experience in customer service and public speaking.
-- IT & Networking expertise, including computer hardware, troubleshooting, and network server diagnosis.
+-   Strong collaboration and team management abilities from experience in customer service and public speaking.
+-   IT & Networking expertise, including computer hardware, troubleshooting, and network server diagnosis.
 
----
+------------------------------------------------------------------------

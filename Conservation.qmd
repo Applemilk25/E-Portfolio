@@ -1,0 +1,95 @@
+---
+title: "Salmon Conservation"
+---
+
+![](images/pexels-line-knipst-574109081-19768981.jpg)
+
+Salmon populations are vital to the **economic, cultural, and ecological health** of British Columbia. However, habitat fragmentation, dam construction, and environmental degradation threaten their ability to migrate and spawn. This research applies **GIS and remote sensing** to assess salmon habitat accessibility and develop conservation strategies.
+
+## Why This Research Matters
+
+-   **Salmon as a Keystone Species**: Salmon support entire ecosystems, providing nutrients for forests and food for wildlife.
+-   **Threats to Migration Routes**: Dams and habitat fragmentation reduce access to critical spawning grounds.
+-   **Scientific Approach to Conservation**: Remote sensing and GIS allow for large-scale habitat assessment, identifying high-risk areas and informing policy decisions.
+
+------------------------------------------------------------------------
+
+# Methodology & Tools
+
+## Tools and Technologies Used
+
+This project leverages **remote sensing, GIS analysis, and hydrological modeling** to map stream networks and assess habitat accessibility.
+
+-   **Digital Elevation Models (DEM)**: Used to derive hydrology layers and stream networks.
+-   **ArcGIS Pro**: Hydrology and Network Analyst toolsets for modeling salmon migration paths.
+-   **LiDAR Data**: Enhances DEM resolution for more precise stream delineation.
+-   **Flow Accumulation Models**: Simulates water movement and stream formation.
+-   **Network Analysis**: Identifies barriers such as dams and models accessible salmon routes.
+
+------------------------------------------------------------------------
+
+# Study Area
+
+## Vancouver Island – A Critical Salmon Habitat
+
+The study focuses on **Vancouver Island, British Columbia**, a region with a rich network of salmon-bearing streams and lakes.
+
+### Key Features:
+
+-   **Over 24,000 stream segments analyzed**.
+-   **Dams mapped as potential barriers** to migration.
+-   **Major lakes and tributaries assessed** for connectivity to the ocean.
+
+### Fire & Industrial Threats
+
+-   **Hydroelectric Dams**: Alter natural flow patterns, affecting migration routes.
+-   **Forestry & Land Use Changes**: Increased sedimentation can degrade spawning habitat.
+-   **Climate Change**: Rising temperatures and altered precipitation patterns threaten freshwater ecosystems.
+
+------------------------------------------------------------------------
+
+# Key Findings
+
+## **Salmon Habitat Accessibility**
+
+-   **5,984 stream segments are inaccessible** due to lack of ocean connectivity or dam obstructions.
+-   **18,419 stream segments remain accessible**, representing key spawning areas.
+
+## **The Role of DEM Resolution**
+
+-   **25m DEM captures major drainage patterns** but lacks finer details for smaller tributaries.
+-   **Higher-resolution (5m) DEMs could improve accuracy**, but introduce computational challenges.
+
+## **The Impact of Dams on Migration**
+
+-   Critical **stream segments are fragmented**, potentially isolating salmon populations.
+-   **Larger lakes with ocean connections should be prioritized** for conservation efforts.
+
+## **Recommendations for Conservation**
+
+1.  **Prioritize dam removal or fish passage solutions** in high-impact areas.
+2.  **Expand protected Riparian Management Areas (RMAs)** to reduce sedimentation.
+3.  **Incorporate additional habitat factors** (e.g., water quality, seasonal changes) into future models.
+
+------------------------------------------------------------------------
+
+# GIS & Remote Sensing Visualizations
+
+## Remote Sensing for Habitat Assessment
+
+Using satellite imagery and LiDAR, we can assess: - **Water depth and velocity** to determine suitable spawning locations. - **Stream sedimentation patterns** to identify pollution sources. - **Forest cover changes** to monitor riparian habitat health.
+
+------------------------------------------------------------------------
+
+1.  **DEM Processing**:
+    -   Generate hydrology layers from a 25m DEM.
+    -   Identify flow direction and accumulation patterns.
+2.  **Stream Network Analysis**:
+    -   Classify streams based on **stream order, slope, and accessibility**.
+    -   Compare DEM-derived streams to **base map** data.
+3.  **Barrier Identification**:
+    -   Map dams as barriers and determine their impact on connectivity.
+    -   Calculate how much stream length remains accessible to salmon.
+4.  **Habitat Suitability Modeling**:
+    -   Evaluate conditions such as **water depth, quality, and flow velocity**.
+    -   Use remote sensing data to detect potential spawning areas.

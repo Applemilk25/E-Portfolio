@@ -1,5 +1,131 @@
 [
   {
+    "objectID": "Wildfire_management.html",
+    "href": "Wildfire_management.html",
+    "title": "Wildfire Managment",
+    "section": "",
+    "text": "This research integrates LiDAR-based metrics into wildfire fuel classification to improve accuracy and enhance wildfire management strategies. By refining fuel type classification, this project directly supports:\n- More effective wildfire risk assessments for emergency response teams.\n- Better land management policies to reduce fire hazards.\n- Enhanced resource allocation for fire suppression efforts.\n\n\nWildfires are increasing in frequency and intensity due to climate change, endangering communities, ecosystems, and infrastructure. Traditional wildfire risk mapping methods rely on expert interpretation and aerial photography, leading to significant classification errors. Our research integrates LiDAR technology to enhance wildfire fuel type classification, offering: - More accurate fire behavior predictions through high-resolution fuel maps. - Improved wildfire response and mitigation strategies. - Better-informed forest management and policy decisions to reduce risk in high-priority areas.\nBy improving the precision of VRI fuel type classification, this research contributes directly to wildfire prevention, preparedness, and suppression efforts, ultimately protecting lives, property, and biodiversity.\n\n\n\n\nEnhance VRI fuel type classification with LiDAR data.\nIdentify spatial patterns in forest fuel distribution.\nImprove wildfire management through more accurate fuel type mapping.\nValidate the effectiveness of LiDAR augmentation using comparative analysis."
+  },
+  {
+    "objectID": "Wildfire_management.html#why-this-research-matters",
+    "href": "Wildfire_management.html#why-this-research-matters",
+    "title": "Wildfire Managment",
+    "section": "",
+    "text": "Wildfires are increasing in frequency and intensity due to climate change, endangering communities, ecosystems, and infrastructure. Traditional wildfire risk mapping methods rely on expert interpretation and aerial photography, leading to significant classification errors. Our research integrates LiDAR technology to enhance wildfire fuel type classification, offering: - More accurate fire behavior predictions through high-resolution fuel maps. - Improved wildfire response and mitigation strategies. - Better-informed forest management and policy decisions to reduce risk in high-priority areas.\nBy improving the precision of VRI fuel type classification, this research contributes directly to wildfire prevention, preparedness, and suppression efforts, ultimately protecting lives, property, and biodiversity."
+  },
+  {
+    "objectID": "Wildfire_management.html#research-objectives",
+    "href": "Wildfire_management.html#research-objectives",
+    "title": "Wildfire Managment",
+    "section": "",
+    "text": "Enhance VRI fuel type classification with LiDAR data.\nIdentify spatial patterns in forest fuel distribution.\nImprove wildfire management through more accurate fuel type mapping.\nValidate the effectiveness of LiDAR augmentation using comparative analysis."
+  },
+  {
+    "objectID": "Wildfire_management.html#fuel-type-classification",
+    "href": "Wildfire_management.html#fuel-type-classification",
+    "title": "Wildfire Managment",
+    "section": "Fuel Type Classification",
+    "text": "Fuel Type Classification\nWe utilized the BCWS fuel typing algorithm, integrating LiDAR-derived metrics to improve traditional VRI classifications.\n\nKey Steps in Methodology\n\nData Acquisition & Preprocessing\n\nProcessed point cloud LiDAR data using the lidR package in R.\nRemoved noise, duplicates, and outliers.\nConverted the dataset to EPSG:26910 (NAD83 / UTM zone 10N).\n\nTerrain Normalization & CHM Generation\n\nCreated a 2m resolution Digital Terrain Model (DTM).\nGenerated a Canopy Height Model (CHM).\nFiltered vegetation below 2m to remove understory noise.\n\nTree Detection & Feature Extraction\n\nUsed a local maximum filter (LMF, 5m window) for tree detection.\nExtracted the following tree metrics:\n\nTree Height\nCanopy Area\nAspect Ratio (height to width)\nCanopy Curvature (surface curvature measurement)\n\nIntegrated LiDAR-derived tree attributes into an enhanced VRI dataset.\n\nAugmenting VRI Fuel Types\n\nApplied the Canadian Fire Behavior Prediction (FBP) System fuel classification.\nMapped conifer percentage across RMOW.\nCreated a geodatabase for wildfire risk assessment.\n\n\n\n\nChallenges & Limitations\n\nLack of ground-truth validation data.\nPotential misclassification in open-canopy conifer stands.\nComputational complexity of tree segmentation.\n\n\n\nVisualizations\n\n\n\nPlots our detected trees and colored them based on their height, showing the height distribution across our sample plot. Ranging from 0 - 80 meters. We can see that trees that are more expose to unforested areas tend to be shorter Figure 3. plots our detected trees and colored them based on their canopy area, showing its distribution across our sample plot. Ranging from 0 - 250 meters2. We could also observe the trend that trees closer to edge of the stands or exposure to unforested areas to have larger canopies.\n\n\n\n\n\nPlots our detected trees and colored them based on their canopy area, showing its distribution across our sample plot. Ranging from 0 - 250 meters2. We could also observe the trend that trees closer to edge of the stands or exposure to unforested areas to have larger canopies.\n\n\n\nAspect Ratio Visualization\n\n\n\nA composite value of aspect ratio. Which represent the width of the trees’s in relation to its height. Ranging from 0 - 2. We know that popular deciduous trees within BC are Bigleaf Maple, and Black cottonwood and their aspect ratios frequently average between 1.29 - 2.39 while coniferous trees such as Douglas fir and Western Redceder range from 2.84 to 4.25 according to BC BigTree Statistics from UBC Faculty of Forestry (2025). Higer aspect ratio means that a tree is more narrow and is more likely to be a conifer.\n\n\nA composite value of aspect ratio. Which represent the width of the trees’s in relation to its height. Ranging from 0 - 2. We know that popular deciduous trees within BC are Bigleaf Maple, and Black cottonwood and their aspect ratios frequently average between 1.29 - 2.39 while coniferous trees such as Douglas fir and Western Redceder range from 2.84 to 4.25 according to BC BigTree Statistics from UBC Faculty of Forestry (2025). Higer aspect ratio means that a tree is more narrow and is more likely\nto be a conifer."
+  },
+  {
+    "objectID": "Wildfire_management.html#overview",
+    "href": "Wildfire_management.html#overview",
+    "title": "Wildfire Managment",
+    "section": "Overview",
+    "text": "Overview\nThe Resort Municipality of Whistler (RMOW) spans 245 km², featuring mountainous terrain, dense forests, and fire-prone ecosystems."
+  },
+  {
+    "objectID": "Wildfire_management.html#fire-history-risk-factors",
+    "href": "Wildfire_management.html#fire-history-risk-factors",
+    "title": "Wildfire Managment",
+    "section": "Fire History & Risk Factors",
+    "text": "Fire History & Risk Factors\n\nHistoric Wildfires:\n\n1916 Mountain Fire: Major fire in the Pemberton Valley.\n1994 Emerald Lake Fire: Affected ecological and recreational areas.\n2003 Whistler Mountain Fire: Threatened the ski resort but was contained.\n\n\n\nFire Risk Factors\n\nClimate Change: Rising temperatures & increased fire frequency.\nDrought Conditions: Exacerbates fuel dryness.\nDense Forest Canopy: Supports rapid fire spread."
+  },
+  {
+    "objectID": "Wildfire_management.html#infrastructure-vulnerability",
+    "href": "Wildfire_management.html#infrastructure-vulnerability",
+    "title": "Wildfire Managment",
+    "section": "Infrastructure & Vulnerability",
+    "text": "Infrastructure & Vulnerability\n\nMajor Roads: The Sea-to-Sky Highway is crucial for emergency evacuation.\nTourism Dependency: Economic impact of fire-related closures.\nEcosystem Sensitivity: Old-growth forests & alpine meadows at risk.\n\n\nFire Management Strategies\n\nFuel Breaks: Vegetation clearance to prevent fire spread.\nPrescribed Burns: Controlled burns to manage fuel loads.\nFireSmart Programs: Public education and community involvement."
+  },
+  {
+    "objectID": "Wildfire_management.html#enhancing-vri-accuracy",
+    "href": "Wildfire_management.html#enhancing-vri-accuracy",
+    "title": "Wildfire Managment",
+    "section": "Enhancing VRI Accuracy",
+    "text": "Enhancing VRI Accuracy\nTraditional VRI classification relies on expert interpretation and aerial photography. Our LiDAR-augmented method provides:\n\nHigher Resolution Mapping: More detailed tree and canopy detection.\nImproved Classification Accuracy: Enhanced fuel type differentiation.\nRevised VRI Maps: Correcting classification errors (e.g., misclassified C-5 fuel types).\n\n\nSankey Diagram\nIllustrates potential shifts in classification due to LiDAR augmentation:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Si Ming’s E-Portfolio",
+    "section": "",
+    "text": "Hey there,\nWelcome to Si Ming’s E-Portfolio landing page. This portfolio will detail Si Ming’s professional projects and accomplishments."
+  },
+  {
+    "objectID": "Conservation.html",
+    "href": "Conservation.html",
+    "title": "Salmon Conservation",
+    "section": "",
+    "text": "Salmon populations are vital to the economic, cultural, and ecological health of British Columbia. However, habitat fragmentation, dam construction, and environmental degradation threaten their ability to migrate and spawn. This research applies GIS and remote sensing to assess salmon habitat accessibility and develop conservation strategies."
+  },
+  {
+    "objectID": "Conservation.html#why-this-research-matters",
+    "href": "Conservation.html#why-this-research-matters",
+    "title": "Salmon Conservation",
+    "section": "Why This Research Matters",
+    "text": "Why This Research Matters\n\nSalmon as a Keystone Species: Salmon support entire ecosystems, providing nutrients for forests and food for wildlife.\nThreats to Migration Routes: Dams and habitat fragmentation reduce access to critical spawning grounds.\nScientific Approach to Conservation: Remote sensing and GIS allow for large-scale habitat assessment, identifying high-risk areas and informing policy decisions."
+  },
+  {
+    "objectID": "Conservation.html#tools-and-technologies-used",
+    "href": "Conservation.html#tools-and-technologies-used",
+    "title": "Salmon Conservation",
+    "section": "Tools and Technologies Used",
+    "text": "Tools and Technologies Used\nThis project leverages remote sensing, GIS analysis, and hydrological modeling to map stream networks and assess habitat accessibility.\n\nDigital Elevation Models (DEM): Used to derive hydrology layers and stream networks.\nArcGIS Pro: Hydrology and Network Analyst toolsets for modeling salmon migration paths.\nLiDAR Data: Enhances DEM resolution for more precise stream delineation.\nFlow Accumulation Models: Simulates water movement and stream formation.\nNetwork Analysis: Identifies barriers such as dams and models accessible salmon routes."
+  },
+  {
+    "objectID": "Conservation.html#vancouver-island-a-critical-salmon-habitat",
+    "href": "Conservation.html#vancouver-island-a-critical-salmon-habitat",
+    "title": "Salmon Conservation",
+    "section": "Vancouver Island – A Critical Salmon Habitat",
+    "text": "Vancouver Island – A Critical Salmon Habitat\nThe study focuses on Vancouver Island, British Columbia, a region with a rich network of salmon-bearing streams and lakes.\n\nKey Features:\n\nOver 24,000 stream segments analyzed.\nDams mapped as potential barriers to migration.\nMajor lakes and tributaries assessed for connectivity to the ocean.\n\n\n\nFire & Industrial Threats\n\nHydroelectric Dams: Alter natural flow patterns, affecting migration routes.\nForestry & Land Use Changes: Increased sedimentation can degrade spawning habitat.\nClimate Change: Rising temperatures and altered precipitation patterns threaten freshwater ecosystems."
+  },
+  {
+    "objectID": "Conservation.html#salmon-habitat-accessibility",
+    "href": "Conservation.html#salmon-habitat-accessibility",
+    "title": "Salmon Conservation",
+    "section": "Salmon Habitat Accessibility",
+    "text": "Salmon Habitat Accessibility\n\n5,984 stream segments are inaccessible due to lack of ocean connectivity or dam obstructions.\n18,419 stream segments remain accessible, representing key spawning areas."
+  },
+  {
+    "objectID": "Conservation.html#the-role-of-dem-resolution",
+    "href": "Conservation.html#the-role-of-dem-resolution",
+    "title": "Salmon Conservation",
+    "section": "The Role of DEM Resolution",
+    "text": "The Role of DEM Resolution\n\n25m DEM captures major drainage patterns but lacks finer details for smaller tributaries.\nHigher-resolution (5m) DEMs could improve accuracy, but introduce computational challenges."
+  },
+  {
+    "objectID": "Conservation.html#the-impact-of-dams-on-migration",
+    "href": "Conservation.html#the-impact-of-dams-on-migration",
+    "title": "Salmon Conservation",
+    "section": "The Impact of Dams on Migration",
+    "text": "The Impact of Dams on Migration\n\nCritical stream segments are fragmented, potentially isolating salmon populations.\nLarger lakes with ocean connections should be prioritized for conservation efforts."
+  },
+  {
+    "objectID": "Conservation.html#recommendations-for-conservation",
+    "href": "Conservation.html#recommendations-for-conservation",
+    "title": "Salmon Conservation",
+    "section": "Recommendations for Conservation",
+    "text": "Recommendations for Conservation\n\nPrioritize dam removal or fish passage solutions in high-impact areas.\nExpand protected Riparian Management Areas (RMAs) to reduce sedimentation.\nIncorporate additional habitat factors (e.g., water quality, seasonal changes) into future models."
+  },
+  {
+    "objectID": "Conservation.html#remote-sensing-for-habitat-assessment",
+    "href": "Conservation.html#remote-sensing-for-habitat-assessment",
+    "title": "Salmon Conservation",
+    "section": "Remote Sensing for Habitat Assessment",
+    "text": "Remote Sensing for Habitat Assessment\nUsing satellite imagery and LiDAR, we can assess: - Water depth and velocity to determine suitable spawning locations. - Stream sedimentation patterns to identify pollution sources. - Forest cover changes to monitor riparian habitat health.\n\n\nDEM Processing:\n\nGenerate hydrology layers from a 25m DEM.\nIdentify flow direction and accumulation patterns.\n\nStream Network Analysis:\n\nClassify streams based on stream order, slope, and accessibility.\nCompare DEM-derived streams to base map data.\n\nBarrier Identification:\n\nMap dams as barriers and determine their impact on connectivity.\nCalculate how much stream length remains accessible to salmon.\n\nHabitat Suitability Modeling:\n\nEvaluate conditions such as water depth, quality, and flow velocity.\nUse remote sensing data to detect potential spawning areas."
+  },
+  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
@@ -82,47 +208,5 @@
     "title": "Resume",
     "section": "Media & Design Software",
     "text": "Media & Design Software\n\nAdobe Creative Cloud Suite – Photoshop, Premiere Pro, Lightroom, Illustrator.\nBlender & Maya 3D – 3D design and animation.\nDavinci Resolve & Fusion – Advanced video editing and color grading.\nFL Studio – Audio mastering and sound synthesis."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Si Ming’s E-Portfolio",
-    "section": "",
-    "text": "Hey there,\nWelcome to Si Ming’s E-Portfolio landing page. This portfolio will detail Si Ming’s professional projects and accomplishments."
-  },
-  {
-    "objectID": "content.html",
-    "href": "content.html",
-    "title": "Content & Deliverables",
-    "section": "",
-    "text": "This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen (“On this page”).\nIf you’ve produced any GIS layers for your 599 project, this may be a good place to share them as interactive maps through leaflet. Alternatively, you can upload high-res figures showing correlations, box-plots, etc. from your report here, and provide a brief overview of key project results. If you have written some useful functions, you may also want to share those here to demonstrate proficiency in particular coding languages or synergies between notable coding packages.\n\n\nSample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here.\n\n\n\n\n\n\n\n\n\nSample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))\n  return(ndvi)\n\n\n\n\n\n\nYou can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
-  },
-  {
-    "objectID": "content.html#leaflet",
-    "href": "content.html#leaflet",
-    "title": "Content & Deliverables",
-    "section": "",
-    "text": "Sample leaflet - for detailed leaflet instructions, visit the FCOR 599 workshop archive page here."
-  },
-  {
-    "objectID": "content.html#code-snippets",
-    "href": "content.html#code-snippets",
-    "title": "Content & Deliverables",
-    "section": "",
-    "text": "Sample code snippet. Notice that you can provide a toggle to switch between coding languages - this is referred to as a ‘tabset’ in quarto. It is good practice to try and convert your R code to python, and vice-versa to demonstrate coding proficiency. For example, let’s showcase a function for calculating NDVI in R and Python.\n\nRPython\n\n\ncalc_ndvi &lt;- function(nir, red){ ndvi &lt;- (nir-red)/(nir+red) return(ndvi) }\n\n\ndef calc_ndvi(nir, red): \n  ndvi = (nir.astype(float)-red.astype(float))/(nir.astype(float)+red.astype(float))\n  return(ndvi)"
-  },
-  {
-    "objectID": "content.html#external-links",
-    "href": "content.html#external-links",
-    "title": "Content & Deliverables",
-    "section": "",
-    "text": "You can also provide a frame linking to external websites. For example, here is a link to a Google Earth Engine application I developed. The full-screen GEE application is available here in case you’re interested.\n(To use the GEE tool, navigate to any city you’d like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Peer-reviewed publications:\nDespite listing them on your resume, it may also be pertinent to create a seperate tab for publications and reports. As your career progresses, this list may become quite long, so be sure to organize things. You may want to point to ‘most recent’ publications, or categorize things by project/topic."
   }
 ]
