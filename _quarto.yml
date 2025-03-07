@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: C:\Users\Si Ming\Documents\GitHub\E-Portfolio
+  output-dir: C:/Users/siming01.stu/Documents/GitHub/E-Portfolio
 
 website:
   title: "Si Ming's E-Portfolio"
