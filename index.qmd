@@ -18,7 +18,7 @@ about:
 
 Welcome,
 
-Welcome to Si Ming's E-Portfolio landing page. This portfolio will detail Si Ming's professional projects and accomplishments.
+Welcome to my E-Portfolio landing page! This portfolio highlights my professional projects and accomplishments.I am currently studying at The University Of Vancouver in the Master of Geomatics for Environmental Managment.
 
 ```{=html}
 ::: {#carouselResearch class="carousel slide" data-bs-ride="carousel"}
